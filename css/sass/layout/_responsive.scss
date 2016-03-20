@@ -1,0 +1,35 @@
+@media (min-width: 1200px){
+	.container {
+		width: 970px;
+	}
+}
+@media (max-width: 790px){
+
+	header .navbar-default .navbar-header .navbar-toggle {
+		margin-top: 29px;
+	}
+	header .navbar-default .navbar-header .navbar-brand {
+		padding: 41px 15px 0;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		margin-top:30px;
+	}
+	.container{
+		padding-right: 15px;
+		padding-left: 15px;
+
+	}
+	#aboutus .media-left{
+		display: block;
+		img{
+			margin:0 auto; 	
+		}
+	}
+	.pdr-45 {
+		padding-right: 15px;
+	}
+	#portafolio .categories li {
+		margin-bottom: 0px;
+	}
+
+}

@@ -1,0 +1,57 @@
+
+.item{
+	img{
+		width: 100%;
+	}
+}
+.carousel-inner>.item>img {
+	height: auto;
+}
+#services{
+	.media-body h5{
+		@include color-font1();
+		margin-left: 12px;
+		margin-top: 2px;
+		line-height: 30px;
+	}
+	.btn-more {
+		background: $orange;
+		@include color-font2();
+		display: block;
+		font-size: 12px;
+		margin-top: 20px;
+		padding: 5px 12px;
+		width: 53px;
+	}
+}
+#pictures{
+	.row img:hover{
+		@include transform(1.1);
+    	@include transition(0.8s);		
+	}
+
+	h4{
+		color:$orange;
+		margin-top: 4px;
+	} 
+	.thumbnail {
+		padding: 0px;
+		@include radius(0px);
+		border:0;
+
+		.caption{
+			padding:20px 0px 15px 20px;
+			border-right: 1px solid $graylight;
+			border-bottom: 1px solid $graylight;
+			border-left: 1px solid $graylight;
+			h5{
+				color:$graymedium;
+			}
+			h6{
+				color:$orange;
+			}
+
+		}
+
+	}
+}	

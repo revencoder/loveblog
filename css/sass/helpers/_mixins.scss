@@ -1,0 +1,58 @@
+@mixin radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin transition($tiempo) {
+	-webkit-transition: all $tiempo ease-out;
+	-moz-transition: all $tiempo ease-out;
+	-o-transition: all $tiempo ease-out;
+	transition: all $tiempo ease-out;
+}
+
+@mixin transform($scale) {
+	-webkit-transform: scale($scale);
+	-moz-transform: scale($scale);
+	-o-transform: scale($scale);
+	-ms-transform: scale($scale);
+	transform: scale($scale);
+}
+
+@mixin blockquote1() {
+	padding: 10px 20px;
+	margin: 40px 0 20px 29px;
+	font-size: 14px;
+	border-left: 10px solid $orange;
+	color:$orange;
+}
+@mixin placeholder(){
+	::-webkit-input-placeholder {
+		color: $orange;
+	}
+	:-moz-placeholder { 
+		color: $orange;  
+	}
+	::-moz-placeholder { 
+		color: $orange;  
+	}
+	:-ms-input-placeholder {  
+		color: $orange;  
+	}
+}
+@mixin color-font1(){
+	color:$orange;
+	font-family:$bebas;
+}
+@mixin color-font2(){
+	@include color-font1();
+	color:white;
+}
+@mixin bg-color1(){
+	background:$orange;
+	color:$white;
+}
+@mixin width-height($width, $height){
+	width: $width;
+	height: $height;
+}

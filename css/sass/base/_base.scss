@@ -1,0 +1,103 @@
+body{
+	font-family: sans-serif,open-sans;
+	font-size:14px;
+	line-height:20px;
+	color:#414141;
+}
+
+header,h1,h2,h3,h4,h5,h6,#portafolio a,ul.pagination li a{
+	font-family: $bebas;
+}
+.repeat{
+	.col-md-12{
+		div{
+			padding:11px 0;
+			h3{
+				margin:0;
+				margin-left: 15px;
+			}
+		}
+	}
+
+}
+.bg-orange{
+	@include bg-color1();
+}
+.box-orangelight{
+	background-color:$orangelight;
+	height:50px;
+}
+.container{
+	background-color:$white;
+	padding: 0px 0.5%;
+}
+.encima .container{
+	position: relative;
+	top:-50px;
+
+}
+.bg-rayas {
+	background: url("../images/heading-bg.png") repeat-x  ;
+	padding:20px 0;
+}
+.aside{
+	h5{
+		margin:4px 0;
+		@include color-font1();
+	}
+	a{
+		color:black;
+	}
+	.gallery{
+		display: inline-block;
+		@include width-height(50px,50px);
+		border:1px solid $orange;
+		background-color: $orangelight;
+	}
+
+}
+.mgb-20{
+	margin-bottom:20px; 	
+}
+.mgb-40{
+	margin-bottom:40px; 	
+}
+.pdr-45{
+	padding-right:50px;
+}
+.pdtb-30-55{
+	padding: 30px 0px 55px;
+}
+.pdb-50{
+	padding-bottom: 50px;
+}
+.mgt-20{
+	margin-top: 20px;
+}
+.mgb-40{
+	margin-bottom: 40px;
+}
+.pdb-40{
+	padding-bottom: 40px;
+}
+.pd-0{
+	padding:0;
+}
+.pdtb-40-20{
+	padding:40px 0 20px;
+}
+h2{
+	font-size: 32px;
+}
+h3{
+	font-size: 26px;
+}
+h4{
+	font-size: 20px;
+}
+h5{
+	font-size: 16px;
+}
+h6{
+	font-size: 11px;
+}
